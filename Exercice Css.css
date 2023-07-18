@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    background-image: url(harry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 10px;
+    background-color: red;
+    color: black;
+}
+button{
+    border: 1px #7e2335;
+    background-color: #7e2335;
+    color: white;
+    padding: 8px 50px;
+    width: 23%;
+    border-radius: 0px;
+    cursor: pointer;      
+}
+button:hover{
+    background-color: black;
+}
+h2{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10;
+    text-align: center;
+    background-color: #35354f;
+}
+.Section1{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:rgba(37, 36, 51, 0.7);
+    height: 700px;
+}
+.ImgFond{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    opacity: 10%;
+}
+h3{
+    text-align: center;
+    padding: 20px, 0px;
+    font-size: 25px;
+}
+hr{
+    height: 1px;
+    width: 50%;
+    border: 0px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Article{
+    float: left;
+    width: 50%;
+
+}
+#article1, #article2{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+#article1 p, #article2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#harrytext{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Section2{
+    padding-top: 0px;
+    background-color:rgba(37, 36, 51, 0.7);
+    height: 700px;
+}
+#article3, #article4{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.Texte4{
+    display: flex
+}
+.para41, .para42{
+    margin-left: 20px;
+}
+/* Version mobile */
+@media (min-width: 0px) and (max-width: 400px) {
+    h1{
+        font-size:20px
+    }
+    h2{
+        font-size:20px
+    }
+    .Section1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    #article1, #article2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px; 
+    }  
+}
+/* Version tablette */
+@media (min-width: 400px) and (max-width: 600px) {
+    h1{
+        font-size:40px
+    }
+    h2{
+        font-size: 40px;
+    }
+    .Section1{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #article1, #article2{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto; 
+    }  
+}
+
+
+
+
+
+
+
+
+

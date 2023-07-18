@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    background-image: url(harry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(60, 63, 253);
+    color: white;
+    padding: 30px;
+}
+button{
+    border: 1px #234a7e;
+    background-color: #234a7e;
+    color: white;
+    padding: 8px 50px;
+    width: 23%;
+    border-radius: 0px;
+    cursor: pointer;      
+}
+button:hover{
+    background-color: black;
+}
+#section1{
+    text-align: center;
+    color: white;
+    background-color: #2261b3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10;
+}
+.Section1{
+    background-color: #23527ee0;
+}
+h3{
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.bleu{
+    text-align: justify;
+    margin-left: 10px;
+    border-radius: 0px;
+    border-top: 10px solid #23527ee0;
+    background-color: rgba(82, 122, 175, 0.5); 
+}
+.bleu p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.gris{
+    text-align: justify;
+    margin-left: 10px;
+    border-top: 10px solid #23527ee0;;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.gris p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Article1-1{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+.Article1-1 > div{
+    flex: 0 0 32.5%;
+    padding: 20px 0px;
+}
+.Article1-2{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+.Article1-2 > div{
+    flex: 0 0 32.5%;
+    padding: 20px 0px;
+}
+.Section2{
+    background-color: #23527ee0;
+}
+#section2{
+    text-align: center;
+    color: white;
+    background-color: #2261b3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10;
+}
+#article2-1{
+    text-align: justify;
+    margin-left: 10px;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: rgba(82, 122, 175, 0.5); 
+}
+#article2-1 p, #article2-2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#article2-2{
+    text-align: justify;
+    margin-left: 10px;
+    border-radius: 0px;
+    padding: 10px;
+    border-top: 20px solid #23527ee0;
+    background-color: rgba(255, 255, 255, 0.5);   
+}
+#harrytext{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
